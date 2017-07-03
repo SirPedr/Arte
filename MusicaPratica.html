@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Música: Prática</title>
+  <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Knewave" rel="stylesheet">
+  <link rel="icon" href="imgs/icon.png">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="estilizacao.css">
+</head>
+  <body>
+    <nav>
+      <ul id="menu">
+        <nav id="visual">
+          <li class="itens-menu">Visual</li>
+          <ul class="menu-musica-visual">
+            <li class="sub-itens-menu"><a href="PixelArt.html">Pixel Art</a></li>
+            <li class="sub-itens-menu"><a href="Doodle.html">Doodle Art</a></li>
+            <li class="sub-itens-menu"><a href="Desenhos.html">Desenhos</a></li>
+          </ul>
+        </nav>
+        <nav id="musica">
+          <li class="itens-menu">Música</li>
+          <ul class="menu-musica-visual">
+            <li class="sub-itens-menu"><a href="MusicaGeral.html">Visão Geral</a></li>
+            <li class="sub-itens-menu"><a href="MusicaTeoria.html">Teoria</a></li>
+            <li class="sub-itens-menu"><a href="MusicaPratica.html">Prática</a></li>
+          </ul>
+        </nav>
+  </ul>
+    </nav>
+    <img id="imagem-principal" src="imgs/BigImage.png">
+    <hr class="titulo-index" data-titulo="Música: A Prática"></hr>
+    <section class="paragrafos-index">
+      <p>Opa, se enganou de página? Então <a href="index.html">volte para a página inicial</a></p>
+      <p>Ah..Sim! A parte legal de estudar música! Depois de incessantes estudos de intervalos, escalas e etc, você está pronto<br>para tocar e arrasar com seu intrumento!<br>
+        Se você não chegou a ver os vídeos referência na página de Música Teórica, veja <a href="MusicaTeoria.html" target="_blank">aqui</a>. Eu vou esperar.<br>
+        Já viu? Ótimo! Agora vamos por em prática o que você sabe. Existe um cara com um nome bem complicado, mas ele é ótimo<br>nessa coisa toda de música. Ele tem um canal no
+        YouTube chamado <a href="https://www.youtube.com/channel/UCrCS4DZnz74uB8FU47QUcdA">Acoustician</a>, e nós recomendamos muito fortemente<br>você ouvir as obras dele. Mesmo
+        que seja para apreciar somente, vale super a pena. O site dele está <a href="https://acoustician.live/">aqui</a> e você pode conferir, se quiser. É uma boa!
+      </p>
+      <p>Agora..Bem, nós não vamos conseguir te ensinar a tocar por aqui (a menos que façamos um curso online...Hm...Anotado), mas podemos dar aquele empurrão <br> caso você queira
+      material ou simplesmente goste de ouvir músicas enquanto estuda, relaxa ou viaja, por exemplo. Todas estão creditadas e se encontram logo abaixo para sua apreciação. :)
+    <br>Parece que, por agora, meu trabalho está feito...Que a força esteja com você!</p>
+    </section>
+    <section class="paragrafos-index">
+      <p>Sabe de uma coisa? Talvez eu possa te ajudar a treinar...O seu ouvido! Estranho? Não quando o contexto é música. Você sabe, temos 7 nota musicais,<br> mas você
+        sabe diferenciar cada uma? Saberia dizer se nota x é Lá ou Ré, por exemplo? Talvez sim, talvez não. Mas eu vou te ajudar a melhorar isso!<br><br> Digite a nota que
+        você quer ouvir e eu toco ela pra você.<br><em>Não se esqueça dos assentos e da letra maíuscula!</em></p>
+        <input type"text" value="Dó" id="input-nota"></input><br>
+        <button type="button" id="botao-nota">Tocar</button>
+        <audio src="audio/NotaA.mp3" type="audio/mp3"  id="NotaA">
+        <audio src="audio/NotaB.mp3" type="audio/mp3"  id="NotaB">
+        <audio src="audio/NotaC.mp3" type="audio/mp3"  id="NotaC">
+        <audio src="audio/NotaD.mp3" type="audio/mp3"  id="NotaD">
+        <audio src="audio/NotaE.mp3" type="audio/mp3"  id="NotaE">
+        <audio src="audio/NotaF.mp3" type="audio/mp3"  id="NotaF">
+        <audio src="audio/NotaG.mp3" type="audio/mp3"  id="NotaG">
+    </section>
+    <script src="scripts/tocarnota.js"></script>
+    <script src="scripts/scriptmenu.js"></script>
+  </body>
+</html>

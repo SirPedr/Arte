@@ -1,0 +1,303 @@
+﻿body{
+  margin: 0px; //Remove as bordas padrão do Body
+}
+.titulo-index{
+  border-top: 7px double #191647;
+  text-align: center;
+  width: 50%;
+  border-left: none;
+  border-bottom:none;
+  border-right:none;
+  height: 26px;
+}
+::selection{
+  background-color: #191647;
+  color: white;
+}
+h2{
+  font-weight: bolder;
+}
+table{
+  text-align: center;
+  border-collapse: collapse;
+  font-family: 'Raleway', sans-serif;
+}
+thead{
+  background-color: #191647;
+  color: white;
+  font-weight: normal;
+}
+ul{
+  list-style: none;
+  text-align: center;
+  cursor: pointer;
+}
+li > a:visited, li > a{
+  color: white;
+}
+li > a:hover{
+  text-decoration: underline;
+  font-size: 18px;
+}
+th, td{
+  padding: 10px;
+  border-top: 1px solid #191647;
+}
+hr::before{
+  content: attr(data-titulo);
+	display: inline-block;
+	position: relative;
+	top: -50px;
+	padding: 0 10px;
+	font-family: 'Knewave';
+ 	 background-color: white;
+  	font-size: 55px;
+	color: rgb(25,22,71);
+}
+a{
+  text-decoration: none;
+  color: #321c73;
+  cursor: pointer;
+}
+input{
+  border: 1px solid  #191647;
+}
+a:visited{
+  color:  #645ebd;
+}
+a:hover{
+  font-size: 25px;
+  transition: 250ms;
+}
+section{
+  width: 800px;
+  margin: auto;
+}
+#amazingslider-wrapper-1{
+  display:block;
+  position:relative;
+  max-width:900px;
+  padding-left:0px;
+  padding-right:150px;
+  margin:0px auto 0px;
+}
+#evolucao{
+  margin-bottom: 50px;
+  margin-top: 4px;
+  margin-left: 100px;
+}
+.creditos{
+  text-decoration: none;
+  color: #321c73;
+  cursor: pointer;
+}
+#botao-nota{
+  background-color: #191647;
+  border: none;
+  width: 80px;
+  height: 30px;
+  padding: 5px;
+  color: white;
+  font-family: 'Patua One', sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+#botao-nota:hover{
+  background-color: white;
+  color: #191647;
+  transition: 250ms;
+  border: 2px solid #191647;
+  cursor: pointer;
+  font-size: 18px;
+}
+#amazingslider-1{
+  display:block;
+  position:relative;
+  margin: 0 auto;
+}
+#imagem-principal{
+  width: 100%;    //A imagem grande fundo fica com a largura do tamanho do monitor
+}
+#imagemFooter{
+  width: 250px;
+  margin-left: 15%;
+}
+#tituloFooter{
+  margin: 0;
+  font-family: 'Patua One', sans-serif;
+  color: white;
+  position: relative;
+  font-weight: lighter;
+  margin-left: 50%;
+  font-size: 50px;
+}
+#menu{
+  background-color: black;
+  color: white;
+  list-style: none;
+  position: absolute;
+  width: 260px;
+  margin: 0;
+  left: 50%;
+  padding:5px;
+  padding-right: 30px;
+  border-radius:3px;
+  opacity:0.85;
+  padding-left: 30px;
+  margin: 0px auto;
+  margin-left: calc(-178px/2);
+}
+
+#visual, #musica{
+  float: left;
+}
+#lista-definicao{
+  list-style: none;
+  font-style: italic;
+
+}
+.itens-menu{
+  font-family: 'Patua One', sans-serif;
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 25px;
+  padding-left:20px;
+}
+.menu-musica-visual{
+  display: none;
+}
+.paragrafos-index{
+  font-family:'Raleway', sans-serif;
+  width: 100%;
+  line-height: 1.5em;
+  font-size: 21px;
+  text-align: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.imagens-grandes{
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+.titulos-principais{
+  position: absolute;
+  left: 50%;
+  font-weight: lighter;
+  font-family: 'Patua One', sans-serif;
+  color: white;
+  font-size: 200px;
+  margin-left: calc(-475px/2);
+  margin-top:-450px;
+}
+.img-alinhar-esquerda{
+  width: 350px;
+  padding-left: 30px;
+  border-radius: 30%;
+  float: left;
+  padding-bottom: 30px;
+}
+.img-alinhar-direita{
+  width: 350px;
+  padding-right: 30px;
+  border-radius: 50%;
+  float: right;
+}
+.ultima-img{
+  width: 350px;
+  padding-right: 30px;
+  border-radius: 50%;
+  float: none;
+}
+.img-alinhar-direita:hover, .img-alinhar-esquerda:hover{
+  border-radius: 45%;
+  transition: 250ms;
+  cursor: pointer;
+}
+.sub-itens-menu{
+  font-family: 'Patua One', sans-serif;
+}
+
+.subtitulos{
+  font-size: 27px;
+  font-family: 'Patua One', sans-serif;
+  width: 400px;
+}
+.textos-esquerda{
+  font-family:'Raleway', sans-serif;
+  font-weight: lighter;
+  line-height: 1.5em;
+  font-size: 21px;
+  width: 400px;
+  margin-left: 20px;
+}
+.textos-direita{
+  font-family:'Raleway', sans-serif;
+  line-height: 1.5em;
+  font-size: 21px;
+  width: 400px;
+  float: right;
+  margin-left: 20px;
+}
+.videos{
+  width:800px;
+  height:475px;
+  border:2px solid #191647;
+  border-radius:3%;
+}
+.gg{
+  color:#4285f4;
+}
+.oe{
+  color:#ea4335;
+}
+.o{
+  color:#fbbc05;
+}
+.l{
+  color: #34a853;
+}
+
+.pixel-art-intro{
+  height: 300px;
+  width: 300px;
+}
+
+.img-alinhar-esquerda.toturial-pixel-img, .img-alinhar-direita.toturial-pixel-img{
+  width: 267px;
+  clear: both;
+}
+
+
+
+.cinza{
+  color: rgb(101, 98, 123);
+}
+
+.cinza-claro{
+  color: rgb(179, 173,187);
+}
+
+.branco{
+  color: rgb(248, 248, 251);
+}
+
+.preto{
+  color: rgb(24, 28, 36);
+}
+
+.atividade{
+  width: 200px;
+  display: inline-block;
+}
+
+hr[data-titulo="Vídeo"]{
+  margin-top: 43px;
+}
+
+.videos-menores{ /*so queria deixar os videos menores na parte da pixel-art para um ficar do lado do outro*/
+  width: 390px;
+  border:2px solid #191647;
+  border-radius:3%;
+  display: inline-block;
+}
