@@ -166,6 +166,9 @@ section{
 .menu-musica-visual{
   display: none;
 }
+.links-creditos{
+  color: #321c73;
+}
 .paragrafos-index{
   font-family:'Raleway', sans-serif;
   width: 100%;
@@ -238,6 +241,9 @@ section{
   width: 400px;
   float: right;
   margin-left: 20px;
+}
+.subt-direita{
+  float: right;
 }
 .videos{
   width:800px;
